@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+.wrap{
+ width: 500px;
+ padding:20px;
+ border:1px solid black;
+ margin:0 auto;
+ margin-top:100px;
+}
+
+
+.inner-wrap{
+	border:1px solid black;
+	padding:10px;
+}
+
+a{
+ text-decoration: none;
+ color:black;
+}
+.inner-wrap > div{
+margin:5px;
+}
+</style>
+
+<script>
+ function calc(){
+	// alert("dkfdjdfkdfjd");
+	// window.location.href="/day2/prac6";
+	 let num=20;
+	 window.location.href="/day2/prac6_2?num="+num;
+ }
+
+</script>
+</head>
+<body>
+
+<h2>여러가지 방법으로 요청하기 , GET 요청</h2>
+<ul>
+<li>url직접</li>
+<li>a태그</li>
+<li>자바스크립트 location.href</li>
+<li>from태그</li>
+</ul>
+
+<div class="wrap">
+	<div class="inner-wrap">
+	
+	   <div><a href="/day2/prac6"> 문제6 a태그: 약수구하기</a> </div> 	
+	   <div> <button onclick="calc()">문제6 </button></div>  
+	   <div>
+	   	<form action="/day2/prac6_2" method="GET">
+	   	   약수를 구하고 싶은 수 :  <input type="text"  name="num">	   	   
+	   	   <button>구하기</button>	   	   
+	   	   <!-- <input type="submit"  value="구하기">  -->
+	   	</form>
+	   </div>    
+	   
+	</div>
+</div>
+</body>
+</html>

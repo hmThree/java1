@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form name="frm" action="radio_action.jsp"  method="post" >
+	
+		<label><input type="radio" value="M" name="gender">남성</label>
+        <label><input type="radio" value="W" name="gender">여성</label>
+        <label><input type="radio" value="O" name="gender">기타</label>        
+		<button >전송</button>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+header{
+border:1px solid black;
+}
+nav{
+border:1px solid black;
+}
+section{
+border:1px solid black;
+}
+div{
+border:1px solid black;
+}
+footer{
+border:1px solid black;
+/*부모에 display:fex / footer의 자식 div가 옆으로 나온다*/
+display:flex;
+}
+
+footer>div{
+border:1px solid black;
+width:33%;
+padding:10px;
+}
+</style>
+</head>
+<body>
+
+<header><h2>에이콘 학생관리 프로그램</h2></header>
+
+<nav>
+<ul>
+<li>home</li>
+<li>학생등록</li>
+<li>학생조회</li>
+</ul>
+</nav>
+
+<section>섹션</section>
+<footer>
+<div class="footer_item">영역1</div>
+<div class="footer_item">영역2</div>
+<div class="footer_item">영역3</div>
+</footer>
+</body>
+</html>

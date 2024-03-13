@@ -1,0 +1,20 @@
+package day6;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class Prac4 extends HttpServlet{
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		
+		Prac4Service service = new Prac4Service();
+		Book book=service.getBookInfo();
+		request.setAttribute("bookInfo",book);
+		request.getRequestDispatcher("WEB-INF/views/bookinfo.jsp").forward(request,response);
+	}
+
+}

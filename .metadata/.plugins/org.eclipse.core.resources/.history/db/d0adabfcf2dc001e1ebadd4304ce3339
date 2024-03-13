@@ -1,0 +1,44 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+header{
+border:1px solid black;
+}
+nav{
+border:1px solid black;
+}
+section{
+border:1px solid black;
+}
+div{
+border:1px solid black;
+}
+footer{
+border:1px solid black;
+display:flex;
+}
+
+fotter>div{
+border:1px solid black;
+}
+</style>
+</head>
+<body>
+
+<header>헤더</header>
+
+<nav>네브</nav>
+
+<section>섹션</section>
+
+<div class="footer_item">영역1</div>
+<div class="footer_item">영역2</div>
+<div class="footer_item">영역3</div>
+
+</body>
+</html>

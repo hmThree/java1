@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+
+table{
+	border:1px solid black;
+	margin:0 auto;
+	width:400px;
+	border-collapse:collapse
+}
+td{
+	border:1px solid purple;	
+	text-align:center;
+}
+</style>
+</head>
+<body>
+
+
+<form>
+	<table>
+		<tr>
+		<td>아이디</td>
+		<td><input type = "text" name = ""></td>
+		</tr>
+		
+		<tr>
+		<td>비번</td>
+		<td><input type = "text" name = ""></td>
+		</tr>
+		
+		<tr>
+		<td>이름</td>
+		<td><input type = "text" name = ""></td>
+		</tr>
+		
+		<tr>
+		<td colspan="2"></td>
+		<button>변경</button>
+		<td></td>
+		</tr>
+	</table>
+</form>
+
+</body>
+</html>

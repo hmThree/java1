@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form name ="frm" action="select_action.jsp" method="post">
+	<select name = "kind">
+	<option value="">선택하시오
+	<option value="V">보컬
+	<option value="D">댄스
+	<option value="R">랩
+
+	</select>
+	<button>전송</button>
+</form>
+</body>
+</html>

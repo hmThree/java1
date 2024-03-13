@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- google font -->
+     <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+
+    <style>
+    </style>
+
+
+    <script>
+        function order(){
+                let cus_name = document.getElementById("cus_name").value;
+                if( cus_name == ""){
+                    alert("주문자이름 입력하세요");
+                }
+        }
+    </script>
+</head>
+<body>
+
+    <div  class="wrap">
+        <!--  상품정보-->
+        <div class="goods_info">  
+            <div  class="img"></div>
+            <div>
+                <h1>대관령 황태</h1>
+                 <p>겨울 내내 녹았다 얼었다를 반복한  맛 좋은 대관령 황태입니다.</p>
+                 <p>가격 :30000원/10마리</p>
+            </div>
+        </div>
+
+        <!--  주문내역정보-->
+        <div class="order_info">
+            <div class="input">--주문내역--</div>
+            <div class="input">주문자이름 <input type="text"  id="cus_name"></div>
+            <div class="input">수량 
+                <select>
+                    <option>수량을 선택하세요</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <div class="input">주문금액 <input type="text"></div>
+            <div class="input">전화번호 <input type="text"></div>
+            <div class="input"> <button class="btn"  onclick="order()">order</button></div>
+        </div>
+    </div>   
+    
+</body>
+</html>

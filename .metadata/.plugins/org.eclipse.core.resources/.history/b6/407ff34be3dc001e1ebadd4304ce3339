@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	header{
+		border:1px solid black;
+		display:flex;
+	}
+	header>div{
+		border:1px solid black;
+		width:33%;
+	}
+</style>
+</head>
+<body>
+<header>
+	<div class="logo"><div>로고영역</div></div>
+	<div class="serach"><div>검색바</div></div>
+	<div class="menyu"><div>링크메뉴</div></div>
+</header>
+
+</body>
+</html>

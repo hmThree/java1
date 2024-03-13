@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="" method="">
+	<input type="radio" name = "gender" value="W">여성
+	<input type="radio" name = "gender" value="M">남성
+</form>
+
+</body>
+</html>

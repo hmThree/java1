@@ -1,0 +1,48 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+header{
+	margin:0 auto;
+	border:1px solid black;
+	text-align:center;
+}
+
+div{
+	border:1px solid black;
+}
+
+</style>
+</head>
+<body>
+
+
+<header><h2>!! 수정시작 !!</h2></header>
+
+<div>
+	<div>점포명</div>
+	<div><input type="text" name="store_nm" value=""></div>
+</div>
+
+<div>
+	<div>주소</div>
+	<div>	</div>
+</div>
+
+<div>
+	<div>번호</div>
+	<div>	</div>
+</div>
+
+<div>
+	<div>이미지주소</div>
+	<div>	</div>
+</div>
+
+</body>
+</html>

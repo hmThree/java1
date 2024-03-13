@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+header{
+	border:1px solid black;
+	padding:20px;
+	text-align:center;
+}
+nav{
+	border:1px solid purple;
+	padding:5px;
+	margin-top:5px;
+}
+section{
+	border:1px solid black;
+	padding:20px;
+	text-align:center;
+}
+table{
+	border:1px solid black;
+	margin-top:5px;
+}
+</style>
+</head>
+<body>
+
+<header>!!이게 무슨 DB인진 모르겠지만 아무튼DB임!!</header>
+<nav>
+	<span><a href="lookupMain.jsp"> 조회 </a></span>
+	<span><a href="#"> 등록 </a></span>
+</nav>
+
+<section>
+	<table>
+		<tr>
+			<td>등록코드</td>
+			<td>이름</td>
+			<td>주소</td>
+			<td>번호</td>
+			<td>이미지</td>
+		</tr>
+	</table>
+</section>
+
+
+</body>
+</html>

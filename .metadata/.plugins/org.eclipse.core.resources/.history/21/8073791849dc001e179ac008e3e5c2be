@@ -1,0 +1,11 @@
+package day3;
+
+public class Acron {
+	
+	String id;
+	String pw;
+	tring name;
+	
+	
+
+}

@@ -1,0 +1,63 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<style>
+.wrap{
+width:500px;
+border:1px solid black;
+margin:0 auto;
+}
+.line{
+display:flex;
+padding:5px;
+}
+
+.line .col1{
+width:30%;
+}
+.line .col2{
+width:70%;
+}
+
+.line1, .line5{
+ text-align:center;
+}
+</style>
+<body>
+
+
+<div class = "wrap">
+
+	<!--line1  -->
+	<div class="line1">
+		<h2>수강신청 등록</h2>
+	</div>
+	<!--  -->
+	<div class="line">
+		<div class="col1">아이디</div>
+		<div class="col2"><input type="text"></div>
+	</div>
+	
+	<div class="line">
+		<div class="col1">비번</div>
+		<div class="col2"><input type="text"></div>
+	</div>
+	
+	<div class="line">
+		<div class="col1">이름</div>
+		<div class="col2"><input type="text"></div>
+	</div>
+	<!-- line5 -->
+	<div class="line5">
+		<button>등록</button>
+		<button>취소</button>
+	</div>
+</div>
+
+</body>
+</html>

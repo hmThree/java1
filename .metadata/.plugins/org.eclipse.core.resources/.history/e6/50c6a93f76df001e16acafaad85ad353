@@ -1,0 +1,76 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+header{
+	margin:0 auto;
+	border:1px solid black;
+	text-align:center;
+	width:500px;
+}
+
+div{
+	/*border:1px solid black;*/
+}
+section{
+	width:500px;
+	margin:0 auto;
+	margin-top:5px;
+	border:1px solid purple;
+}
+.no1{
+	width:30%;
+	border:1px solid purple;
+}
+.no2{
+	width:70%;
+	border:1px solid purple;
+}
+.cols{
+	display:flex;
+	
+}
+.btndiv{
+	text-align:center;
+}
+
+</style>
+</head>
+<body>
+
+
+<header><h2>!! 수정시작 !!</h2></header>
+
+<section>
+	<div class=cols>
+		<div class= no1>점포명</div>
+		<div class= no2><input type="text" name="store_nm" value=""></div>
+	</div>
+	
+	<div class=cols>
+		<div class= no1>주소</div>
+		<div class= no2><input type="text" name="store_nm" value=""></div>
+	</div>
+	
+	<div class=cols>
+		<div class= no1>전화번호</div>
+		<div class= no2><input type="text" name="store_nm" value=""></div>
+	</div>
+	
+	<div class=cols>
+		<div class= no1>이미지주소</div>
+		<div class= no2><input type="text" name="store_nm" value=""></div>
+	</div>
+	
+	<div class=btndiv>
+		<button>변경</button>
+	</div>
+</section>
+
+</body>
+</html>
